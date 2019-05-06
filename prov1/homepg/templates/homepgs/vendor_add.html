@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block title %}Add Data{% endblock %}
+{% block context %}
+    <form method="POST">
+    {{ form.as_p}}
+    <input type="submit" value="save" />
+    </form>
+{% endblock %}

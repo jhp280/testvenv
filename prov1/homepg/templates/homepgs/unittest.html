@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Store list{% endblock %}
+{% block context %}
+    <h1> {{vendor_list.vendor_name}}</h1>
+    <ul>
+    	<li>{{vendor_list.store_name}}</li>
+    	<li>{{vendor_list.phone}}</li>
+    	<li>{{vendor_list.location}}</li>
+    </ul>
+{% endblock %}
